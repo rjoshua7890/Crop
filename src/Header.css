@@ -1,0 +1,115 @@
+/* Header.css */
+
+.header {
+    border-radius: 80px;
+    background-image: url('./assets/banner.png'); /* Add your background image path */
+    background-size: inline; /* Cover the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust as necessary */
+    align-items: center;
+    color: white; /* Change text color for better contrast */
+}
+
+.header-content-left {
+    display: flex;
+    flex: 1;
+    text-align: left;
+}
+
+.header-content-left h1 {
+    font-size: 2.5rem; /* Adjust as necessary */
+    margin: 0;
+    color: #fff; /* Light text color for contrast */
+}
+
+.header-content-left p {
+    font-size: 1.2rem; /* Adjust as necessary */
+    color: #eee; /* Slightly lighter text color */
+}
+
+.header-content-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align images to the right */
+}
+
+.header-images {
+    display: flex;
+    gap: 15px; /* Increased space between images */
+}
+
+.header-images a {
+    background: transparent;
+    display: inline-block; /* Ensure anchors are block elements */
+}
+
+.header-images img {
+    max-height: 50px; /* Adjust image height */
+    width: auto;
+    transition: transform 0.3s; /* Add transition for hover effect */
+}
+
+.header-images img:hover {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+
+    .header-content-left {
+        text-align: center; /* Center text on small screens */
+    }
+
+    .header-images {
+        justify-content: center; /* Center images */
+        margin-top: 10px; /* Add space between text and images */
+    }
+
+    .header-content-left h1 {
+        font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+
+    .header-content-left p {
+        font-size: 1rem; /* Smaller font size for smaller screens */
+    }
+
+    .header-images img {
+        max-height: 40px; /* Reduce image height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content-left h1 {
+        font-size: 1.5rem; /* Further reduce font size */
+    }
+
+    .header-content-left p {
+        font-size: 0.9rem; /* Further reduce font size */
+    }
+
+    .header-images img {
+        max-height: 30px; /* Further reduce image height */
+    }
+}
+
+.header img.logo {
+    height: 143px;
+}
+
+

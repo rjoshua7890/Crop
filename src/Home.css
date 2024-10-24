@@ -1,0 +1,80 @@
+/* Home.css */
+
+.home-container {
+    font-family: Arial, sans-serif; /* Font for the component */
+    padding: 20px; /* Padding around the component */
+}
+
+.menu-button {
+    color: white;
+    background-color: #007BFF; /* Button color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.menu-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.dropdown {
+    background-color: #ffffff; /* White background for dropdown */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: absolute; /* Position dropdown relative to the button */
+    margin-top: 5px; /* Space between button and dropdown */
+    width: 200px; /* Fixed width for dropdown */
+    z-index: 1000; /* Ensure dropdown appears above other content */
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove padding */
+}
+
+.dropdown li {
+    padding: 10px; /* Padding for each menu item */
+}
+
+.dropdown li:hover {
+    background-color: #e9f5ff; /* Light blue background on hover */
+}
+
+.dropdown a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Dark color for links */
+    display: block; /* Make link fill the item */
+    width: 100%; /* Full width */
+}
+
+.dropdown a:hover {
+    color: #007BFF; /* Change link color on hover */
+}
+.menu-bar{
+    text-align:center;
+    margin-top:15px;
+}
+.menu-bar button{
+    width: 112px;
+    height: 36px;
+    background: #e2a954;
+    color: #fff;
+    border: none !important;
+    border-radius: 3px;
+}
+.menu-bar ul li a{
+    border: 1px solid;
+    color: #e2a954;
+    background: #fbffe0;
+}
+.menu-bar ul li:nth-child(1){
+    margin-top: 25px;
+}
+.menu-bar ul li:nth-child(2){
+    margin-top: 35px;
+}
+.menu-bar ul li:nth-child(1) a{
+    padding-left:22px;
+    padding-right:22px;
+}

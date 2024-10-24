@@ -1,0 +1,53 @@
+.view-govt-scheme {
+    background-color: #f0f4f8; /* Soft light blue background */
+    padding: 30px; /* Increased padding */
+    border-radius: 8px; /* More rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    max-width: 600px; /* Set maximum width */
+    margin: 20px auto; /* Center the container with top/bottom margin */
+  }
+  
+  .view-govt-scheme h2 {
+    color: #2c3e50; /* Darker text color for the title */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .view-govt-scheme .scheme-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .view-govt-scheme .scheme-item {
+    background-color: #ffffff; /* White background for each item */
+    padding: 15px; /* Increased padding */
+    margin: 15px 0; /* Space between items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    position: relative; /* For absolute positioning of icon */
+    padding-left: 45px;
+  }
+  
+  .view-govt-scheme .scheme-item:hover {
+    background-color: #eaf6ff; /* Light blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .view-govt-scheme .scheme-item::before {
+    content: "🌾"; /* Example crop icon (ear of rice) */
+    position: absolute; /* Position icon */
+    left: 15px; /* Space from the left */
+    font-size: 20px; /* Icon size */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to center */
+  }
+  
+  .view-govt-scheme .scheme-item p {
+    color: #34495e; /* Darker text for item details */
+    margin: 5px 0; /* Space between details */
+    line-height: 1.5; /* Increased line height for readability */
+  }
+  

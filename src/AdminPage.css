@@ -1,0 +1,90 @@
+.admin-page {
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .admin-page h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+  }
+  
+  .admin-page h3 {
+    color: #0c8f31;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+  }
+  
+  .admin-page button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0c8f31; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .admin-page button:hover {
+    background-color: #1c669a; /* Darker blue */
+    transform: translateY(-2px);
+  }
+  
+  .admin-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-page li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .admin-page li:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-page p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+  }
+  
+  .admin-page div {
+    margin-bottom: 25px;
+  }
+  
+  .admin-page div > div {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-page {
+      padding: 20px;
+    }
+  
+    .admin-page div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .admin-page div > div {
+      width: 100%;
+      margin: 5px 0;
+    }
+  }
+  

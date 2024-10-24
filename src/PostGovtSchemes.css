@@ -1,0 +1,131 @@
+.post-govt-scheme {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .post-govt-scheme .scheme-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .post-govt-scheme .loading-text,
+  .post-govt-scheme .error-text {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .post-govt-scheme .error-text {
+    color: red;
+  }
+  
+  .post-govt-scheme .scheme-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .post-govt-scheme .crop-select,
+  .post-govt-scheme .scheme-input,
+  .post-govt-scheme .scheme-textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .post-govt-scheme .crop-select:focus,
+  .post-govt-scheme .scheme-input:focus,
+  .post-govt-scheme .scheme-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .post-govt-scheme .submit-button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .post-govt-scheme .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .post-govt-scheme .posted-schemes-title {
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .post-govt-scheme .schemes-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-govt-scheme .scheme-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+  }
+  
+  .post-govt-scheme .scheme-item:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-govt-scheme .scheme-name {
+    font-size: 20px;
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .post-govt-scheme .scheme-details {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .post-govt-scheme .edit-button,
+  .post-govt-scheme .delete-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .post-govt-scheme .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .post-govt-scheme .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post-govt-scheme .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .post-govt-scheme .delete-button:hover {
+    background-color: #c82333;
+  }
+  

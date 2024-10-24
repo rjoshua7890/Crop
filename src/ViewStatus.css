@@ -1,0 +1,41 @@
+.viewstatus {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Border for the container */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    max-width: 600px; /* Maximum width of the container */
+    margin: 20px auto; /* Centering the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .viewstatus h2 {
+    color: #333; /* Darker text color for the heading */
+    font-size: 24px; /* Font size for the heading */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center the heading text */
+  }
+  
+  .viewstatus ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding from the list */
+  }
+  
+  .viewstatus li {
+    background-color: #ffffff; /* White background for each list item */
+    border: 1px solid #ddd; /* Border for each list item */
+    border-radius: 4px; /* Rounded corners for each item */
+    padding: 10px; /* Padding inside each item */
+    margin: 5px 0; /* Space between items */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .viewstatus li:hover {
+    background-color: #f0f0f0; /* Change background on hover */
+  }
+  
+  .viewstatus li.no-applications {
+    text-align: center; /* Center the text for the no applications message */
+    color: #888; /* Light gray color for no applications message */
+    font-style: italic; /* Italic style for the message */
+  }
+  

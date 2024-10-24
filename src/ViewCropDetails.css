@@ -1,0 +1,49 @@
+.view-crop-details {
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 600px; /* Limit width for better readability */
+    margin: 20px auto; /* Center the section */
+  }
+  
+  .view-crop-details h2 {
+    font-size: 26px; /* Slightly larger font size */
+    color: #2c3e50; /* Darker color for better readability */
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif; /* Change font family */
+    text-align: center; /* Center the heading */
+  }
+  
+  .view-crop-details .crop-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .view-crop-details .crop-list li {
+    padding: 15px; /* Increased padding for better spacing */
+    margin-bottom: 10px;
+    background-color: #f7f9fc; /* Light background for list items */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+  .view-crop-details .crop-list li:hover {
+    background-color: #e1f5fe; /* Light blue background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  
+  .view-crop-details .crop-list li:nth-child(odd) {
+    background-color: #fafafa; /* Alternate background color for odd items */
+  }
+  
+  .view-crop-details .crop-list li::before {
+    content: "🌽"; /* Ear of rice icon */
+    margin-right: 10px; /* Space between the icon and text */
+    display: inline-block; /* Ensure it aligns properly */
+    vertical-align: middle; /* Align icon with text */
+  }
+  
